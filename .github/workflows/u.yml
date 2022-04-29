@@ -3,7 +3,7 @@ name: 'Keep'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 10,20,30 * *'
 
 jobs:
   auto_renew:
