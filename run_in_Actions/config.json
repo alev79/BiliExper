@@ -254,10 +254,7 @@
     "log_console": true,         // 是否把日志输出到控制台
     "users": [{
         "cookieDatas": {
-            "SESSDATA": "账号SESSDATA",
-            "bili_jct": "账号bili_jct",
             "LIVE_BUVID": "AUTO2616470514673907"
-            "DedeUserID": "账号uid"
         },
         "show_name": "", /* 昵称，用于日志，消息推送，填空则默认使用账号昵称，在actions上不想显示真实昵称时使用
         /* 下面tasks参数与最上面default参数作用相同，但优先级更高，用于定制每个账号的参数，
