@@ -252,10 +252,11 @@
     },
     "log_file": "BiliExp.log",   // 输出日志文件，不输出请留空，也可填写完整路径
     "log_console": true,         // 是否把日志输出到控制台
-    "users": [{                 //账户数组，每个账户包含一个cookieDatas和tasks参数，使用actions的用户可以使用secrets(biliconfig)指定cookie而不用本参数
-        "cookieDatas": {        // cookie获取方式见项目说明
+    "users": [{
+        "cookieDatas": {
             "SESSDATA": "账号SESSDATA",
             "bili_jct": "账号bili_jct",
+            "LIVE_BUVID": "AUTO2616470514673907"
             "DedeUserID": "账号uid"
         },
         "show_name": "", /* 昵称，用于日志，消息推送，填空则默认使用账号昵称，在actions上不想显示真实昵称时使用
